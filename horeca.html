@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="horeca.css">
+    <script src="horeca.js"></script> 
+    <title>horeca</title>
+</head>
+<body>
+        <div class="body_container">
+        <div class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <!-- <div class="rekening">
+            <p>------------&lt; the amount &gt;------------------</p>
+            <p id="aantal_fris">Het aantal Fris: 0</p> 
+            <p id="aantal_bier">Het aantal Bier: 0</p>
+            <p id="aantal_wijn">Het aantal Wijn: 0</p>
+            <p>--------------&lt; bill &gt;------------------</p>
+            <p id="bedrag1">Fris €0,00</p> 
+            <p id="bedrag2">Bier €0,00</p>
+            <p id="bedrag3">Wijn €0,00</p>
+            <p>_______________</p>
+            <p id="bedrag5">Totaal €0,00</p>
+            <p>---------&lt; price per product &gt;---------</p>
+            <p id="kostenP1">Fris €0,00</p> 
+            <p id="kostenP2">Bier €0,00</p>
+            <p id="kostenP3">Wijn €0,00</p>
+        </div>  -->
+
+        <div class="container">
+            <h1>horica app</h1>
+            <ol>
+                <li>druk op de knop bestellen</li>
+                <li>vul in wat je wilt bestellen (1 ding tegelijk)</li>
+                <li>daarna vul je het aantal van wat je wil bestellen in</li>
+                <li>als je dat hebt gedaan word opnieuw gevraagd wat je wilt bestellen (zie stap 2)</li>
+                <li>u kunt u invullen u kunt fris, drank, wijn en bitterballen</li>
+                <li>als je klaar bent met bestellen typ je bij stap 1 <b>"stop"</b> in</li>
+
+                <h2>rekening</h2>
+            </ol>
+
+            <div class="rekening"> <!-- in deze div komt de rekening te staan  -->
+                <div class="rekening_deel1">
+                    <p id="bedrag1"></p> 
+                    <p id="bedrag2"></p>
+                    <p id="bedrag3"></p>
+                    <p id="bedrag4"></p>
+                    <p id="bedrag5"></p>
+                    <br>
+                    <p id="bedrag6"></p>    
+                </div>
+                <div class="rekening_deel2">
+                    <p id="kostenP1"></p> 
+                    <p id="kostenP2"></p>
+                    <p id="kostenP3"></p>
+                    <p id="kostenP4"></p>
+                    <p id="kostenP5"></p>
+                    <p id="het_totaal"></p>
+                    <p id="kostenP6"></p> 
+                </div>
+
+                <!-- 
+                    toelichting id
+                                
+                    bedrag1 = de te betalen bedrag fris
+                    bedrag2 = de te betalen bedrag bier
+                    bedrag3 = de te betalen bedrag wijn
+                    bedrag5 = het totaal te betalen bedrag
+
+                    kostenP1 = prijs die moet worden betaald van product 1
+                    kostenP2 = prijs die moet worden betaald van product 2
+                    kostenP3 = prijs die moet worden betaald van product 3
+                    kostenP4 = prijs die moet worden betaald van product 4
+                    kostenP5 = prijs die moet worden betaald van product 5
+                    kostenP6 = prijs die totaal moet worden betaald 
+
+                    de_ppp = prijs per product
+                -->
+            </div>
+
+            <button class="btn btn-success btn-sm" onclick="bestelling()">bestelling opgeven</button>
+        </div>
+    </div>
+</body>
+</html>

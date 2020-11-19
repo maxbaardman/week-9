@@ -1,0 +1,59 @@
+/* ************************ class styling ************************ */
+
+.body_container {
+    margin: auto;
+}
+
+.container p {
+    font-size: 30px;
+}
+
+.rekening p {
+    font-size: 20px;
+}
+
+.rekening {
+    display: grid;
+}
+
+.rekening_deel1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rekening_deel2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+/* ************************ id styling ************************ */
+
+#drinken_kopje {
+    font-size: 17px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#warme_snacks_kopje {
+    font-size: 17px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#het_totaal {
+    line-height: 1;
+}
+
+/* ************************ element styling ************************ */
+h1 {
+    color: #878b8f;
+}
+
+img {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+button {
+    margin-bottom: 30px;
+}
